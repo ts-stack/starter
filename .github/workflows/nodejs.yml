@@ -24,7 +24,7 @@ jobs:
             ${{ runner.os }}-node-
       - name: yarn install, build, and test
         run: |
-          yarn ci
+          yarn
           yarn build --if-present
         env:
           CI: true
