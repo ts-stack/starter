@@ -1,12 +1,13 @@
 module.exports = {
+  preset: 'ts-jest',
+  modulePathIgnorePatterns: ['<rootDir>/dist*'],
   globals: {
     'ts-jest': {
       tsConfig: 'tsconfig.json'
     }
   },
   moduleFileExtensions: [
-    'ts',
-    'js'
+    'ts'
   ],
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest'
