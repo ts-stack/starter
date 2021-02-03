@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "echo \"Error: no build specified\"",
     "test": "echo \"Error: no test specified\""
   },
   "keywords": [],
