@@ -11,9 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "dotenv": "^8.2.0"
-  },
   "devDependencies": {
     "@types/eslint": "^7.2.6",
     "@types/jest": "^26.0.20",
