@@ -1,3 +1,3 @@
 # About the project
 
-This is TypeScript backend starter project.
+This is TypeScript starter project.
