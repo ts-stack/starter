@@ -1,0 +1,10 @@
+*.tgz
+*.log
+*.spec.ts
+yarn.*
+jest.*
+.*
+nodemon.json
+CHANGELOG.md
+*.tsbuildinfo
+tsconfig.*
