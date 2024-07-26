@@ -3,9 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index",
-  "types": "dist/index",
-  "module": "dist/index.js",
+  "repository": "https://github.com/ts-stack/starter",
   "exports": "./dist/index.js",
   "scripts": {
     "start": "npm run build && node dist/index.js",
