@@ -18,6 +18,9 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
+    "paths": {
+      "#lib/*": ["./src/*"],
+    },
   },
   "include": [
     "src",
