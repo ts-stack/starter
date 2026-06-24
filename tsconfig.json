@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
+    "types": ["node", "jest"],
     "strict": true,
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "declaration": true,
     "declarationMap": true,
     "composite": true,
-    "outDir": "dist",
     "sourceMap": true,
     "noImplicitOverride": true,
     "forceConsistentCasingInFileNames": true,
