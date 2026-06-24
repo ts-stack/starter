@@ -2,7 +2,7 @@
   "compilerOptions": {
     "strict": true,
     "module": "nodenext",
-    // "moduleResolution": "nodenext", // conflict with typescript > 5.5.4
+    "moduleResolution": "nodenext",
     "declaration": true,
     "declarationMap": true,
     "composite": true,
