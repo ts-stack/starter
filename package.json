@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "npm run build && node dist/index.js",
-    "test": "npm run build && npm run esm-jest",
+    "test": "npm run build && npm run esm-jest --",
     "esm-jest": "node --experimental-vm-modules --no-warnings=ExperimentalWarning node_modules/jest/bin/jest.js",
     "build": "tsc -b tsconfig.build.json",
     "clean": "rimraf dist*"
